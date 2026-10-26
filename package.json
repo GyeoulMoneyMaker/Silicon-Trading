@@ -1,0 +1,12 @@
+{
+  "name": "silicon-trading",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-only demo of an escrow marketplace for repair-grade electronics.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

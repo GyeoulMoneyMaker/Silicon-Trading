@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Silicon Trading">
+  <rect width="64" height="64" rx="14" fill="#0A0F1A"/>
+  <rect x="16" y="16" width="32" height="32" rx="6" fill="#0F9D8A"/>
+  <rect x="23" y="23" width="18" height="18" rx="3" fill="#0A0F1A"/>
+  <g stroke="#C87941" stroke-width="2.6" stroke-linecap="round">
+    <path d="M22 11v6M32 11v6M42 11v6M22 47v6M32 47v6M42 47v6M11 22h6M11 32h6M11 42h6M47 22h6M47 32h6M47 42h6"/>
+  </g>
+</svg>

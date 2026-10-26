@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Motherboard component placeholder">
+  <defs>
+    <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f3d36"/>
+      <stop offset="1" stop-color="#08211d"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3548"/>
+      <stop offset="1" stop-color="#151d2b"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#04100e" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="none"/>
+  <g filter="url(#sh)">
+    <rect x="150" y="60" width="500" height="480" rx="18" fill="url(#pcb)" stroke="#0c5a4d" stroke-width="2"/>
+  </g>
+  <!-- traces -->
+  <g stroke="#1c8a74" stroke-width="2" fill="none" opacity=".7">
+    <path d="M185 110h90v60h70M185 150h60v90h100M270 90v40h70M520 90v50h90M610 180v80h-70M185 430h110v-60h60M610 430h-90v-60h-70M185 480h140M610 480h-140"/>
+    <path d="M230 250h80v-40h90M330 340h140M560 300v70h-80M300 420h90v-30h120" stroke-dasharray="4 5"/>
+  </g>
+  <g stroke="#c87941" stroke-width="2" fill="none" opacity=".55">
+    <circle cx="205" cy="120" r="4"/><circle cx="205" cy="150" r="4"/><circle cx="205" cy="180" r="4"/>
+    <circle cx="595" cy="120" r="4"/><circle cx="595" cy="150" r="4"/><circle cx="595" cy="180" r="4"/>
+  </g>
+  <!-- main SoC -->
+  <rect x="292" y="196" width="170" height="170" rx="8" fill="url(#chip)" stroke="#3d4a61"/>
+  <rect x="308" y="212" width="138" height="138" rx="4" fill="#0e1520" stroke="#273244"/>
+  <text x="377" y="288" fill="#8ea3c2" font-family="ui-monospace, Consolas, monospace" font-size="17" text-anchor="middle" letter-spacing="2">A15</text>
+  <text x="377" y="310" fill="#5f728d" font-family="ui-monospace, Consolas, monospace" font-size="10" text-anchor="middle" letter-spacing="1">BIONIC</text>
+  <!-- pin rows -->
+  <g fill="#c87941" opacity=".85">
+    <rect x="286" y="206" width="6" height="8" rx="1"/><rect x="286" y="226" width="6" height="8" rx="1"/>
+    <rect x="286" y="246" width="6" height="8" rx="1"/><rect x="286" y="266" width="6" height="8" rx="1"/>
+    <rect x="286" y="286" width="6" height="8" rx="1"/><rect x="286" y="306" width="6" height="8" rx="1"/>
+    <rect x="286" y="326" width="6" height="8" rx="1"/><rect x="286" y="346" width="6" height="8" rx="1"/>
+    <rect x="462" y="206" width="6" height="8" rx="1"/><rect x="462" y="226" width="6" height="8" rx="1"/>
+    <rect x="462" y="246" width="6" height="8" rx="1"/><rect x="462" y="266" width="6" height="8" rx="1"/>
+    <rect x="462" y="286" width="6" height="8" rx="1"/><rect x="462" y="306" width="6" height="8" rx="1"/>
+    <rect x="462" y="326" width="6" height="8" rx="1"/><rect x="462" y="346" width="6" height="8" rx="1"/>
+  </g>
+  <!-- secondary chips -->
+  <rect x="200" y="286" width="62" height="52" rx="4" fill="url(#chip)" stroke="#3d4a61"/>
+  <rect x="492" y="286" width="72" height="58" rx="4" fill="url(#chip)" stroke="#3d4a61"/>
+  <rect x="492" y="380" width="48" height="34" rx="3" fill="url(#chip)" stroke="#3d4a61"/>
+  <rect x="200" y="380" width="36" height="48" rx="3" fill="#1b2433" stroke="#3d4a61"/>
+  <!-- small passives -->
+  <g fill="#b8935f" opacity=".9">
+    <rect x="274" y="418" width="18" height="9" rx="2"/><rect x="300" y="418" width="18" height="9" rx="2"/>
+    <rect x="326" y="418" width="18" height="9" rx="2"/><rect x="352" y="418" width="18" height="9" rx="2"/>
+    <rect x="274" y="436" width="9" height="16" rx="2"/><rect x="295" y="436" width="9" height="16" rx="2"/>
+    <rect x="316" y="436" width="9" height="16" rx="2"/><rect x="337" y="436" width="9" height="16" rx="2"/>
+  </g>
+  <!-- connectors -->
+  <rect x="330" y="510" width="120" height="16" rx="4" fill="#16202f" stroke="#3d4a61"/>
+  <g fill="#c87941"><rect x="342" y="514" width="5" height="8"/><rect x="356" y="514" width="5" height="8"/><rect x="370" y="514" width="5" height="8"/><rect x="384" y="514" width="5" height="8"/><rect x="398" y="514" width="5" height="8"/><rect x="412" y="514" width="5" height="8"/><rect x="426" y="514" width="5" height="8"/></g>
+  <!-- mounting holes -->
+  <g fill="#04100e" stroke="#2c7d6c" stroke-width="3">
+    <circle cx="186" cy="96" r="10"/><circle cx="614" cy="96" r="10"/>
+    <circle cx="186" cy="504" r="10"/><circle cx="614" cy="504" r="10"/>
+  </g>
+  <!-- silkscreen labels -->
+  <g fill="#5fa596" font-family="ui-monospace, Consolas, monospace" font-size="9" opacity=".8">
+    <text x="200" y="278">PMIC</text>
+    <text x="492" y="278">NAND</text>
+    <text x="492" y="372">WIFI</text>
+    <text x="200" y="472">U2</text>
+  </g>
+</svg>

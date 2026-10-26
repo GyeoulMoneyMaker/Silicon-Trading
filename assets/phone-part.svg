@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Phone part placeholder">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123b4a"/>
+      <stop offset="0.5" stop-color="#0a1d2c"/>
+      <stop offset="1" stop-color="#071019"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#59667a"/>
+      <stop offset="0.5" stop-color="#aeb9c7"/>
+      <stop offset="1" stop-color="#59667a"/>
+    </linearGradient>
+    <filter id="phsh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0a0f1a" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <g filter="url(#phsh)">
+    <rect x="282" y="62" width="236" height="476" rx="34" fill="url(#metal)"/>
+    <rect x="290" y="70" width="220" height="460" rx="28" fill="#0a0f16"/>
+    <rect x="302" y="82" width="196" height="436" rx="20" fill="url(#screen)"/>
+  </g>
+  <!-- notch -->
+  <rect x="356" y="92" width="88" height="22" rx="11" fill="#05080c"/>
+  <!-- screen glow -->
+  <g opacity=".9">
+    <rect x="318" y="138" width="164" height="10" rx="5" fill="#1f6f74"/>
+    <rect x="318" y="160" width="112" height="7" rx="3.5" fill="#174c58"/>
+    <rect x="318" y="178" width="140" height="7" rx="3.5" fill="#174c58"/>
+  </g>
+  <g opacity=".55">
+    <circle cx="400" cy="286" r="58" fill="none" stroke="#2d8d8b" stroke-width="2"/>
+    <circle cx="400" cy="286" r="38" fill="none" stroke="#2d8d8b" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <path d="M400 240v92M354 286h92" stroke="#2d8d8b" stroke-width="1"/>
+  </g>
+  <text x="400" y="452" fill="#4d8f92" font-family="ui-monospace, Consolas, monospace" font-size="11" text-anchor="middle" letter-spacing="3">OLED · OEM PULL</text>
+  <!-- flex cable -->
+  <path d="M420 548h70c18 0 26 10 26 26v12" fill="none" stroke="#b0703d" stroke-width="14" stroke-linecap="round"/>
+  <g stroke="#d39a68" stroke-width="1.5" opacity=".8">
+    <path d="M430 544h60c14 0 20 7 20 18v18" fill="none"/>
+    <path d="M434 552h58c9 0 14 5 14 13v14" fill="none"/>
+  </g>
+  <rect x="502" y="580" width="40" height="14" rx="4" fill="#26303e" stroke="#566374"/>
+  <g fill="#c87941" opacity=".9">
+    <rect x="508" y="583" width="4" height="8"/><rect x="516" y="583" width="4" height="8"/>
+    <rect x="524" y="583" width="4" height="8"/><rect x="532" y="583" width="4" height="8"/>
+  </g>
+</svg>

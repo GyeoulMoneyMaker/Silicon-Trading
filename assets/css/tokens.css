@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Silicon Trading — design tokens
+   Ported from the AquaFlow design system: royal-blue chrome, slate canvas,
+   white cards with visible edges, semantic pills, and a strict type ramp.
+   ========================================================================== */
+
+:root {
+  /* Brand waters */
+  --brand-primary: #1d4ed8;
+  --brand-hover: #1e40af;
+  --brand-active: #1e3a8a;
+  --brand-dark: #0f172a;
+  --brand-light: #dbeafe;
+  --brand-tint: #eff6ff;
+  --brand-ring: rgba(29, 78, 216, 0.25);
+  --sidebar-surface: #1d4ed8;
+  --accent-teal: #0f766e;
+  --accent-teal-bg: #ccfbf1;
+
+  /* Surfaces */
+  --surface-white: #ffffff;
+  --surface-bg: #eaeff6;
+  --surface-card: #ffffff;
+  --surface-subtle: #f3f6fa;
+  --surface-sunken: #e2e8f1;
+
+  /* Ink */
+  --text-dark: #0b1220;
+  --text-slate: #1e293b;
+  --text-muted: #334155;
+  --text-dim: #475569;
+  --text-on-brand: #ffffff;
+
+  /* Lines */
+  --border-line: #d3dae5;
+  --border-subtle: #bfc8d6;
+  --border-strong: #94a3b8;
+
+  /* Semantic */
+  --success-bg: #dcfce7;
+  --success-text: #166534;
+  --success-border: #86efac;
+  --success-solid: #10b981;
+  --warning-bg: #fef9c3;
+  --warning-text: #854d0e;
+  --warning-border: #fde047;
+  --warning-solid: #d97706;
+  --danger-bg: #fee2e2;
+  --danger-text: #991b1b;
+  --danger-border: #fca5a5;
+  --danger-solid: #dc2626;
+  --info-bg: #e0f2fe;
+  --info-text: #075985;
+  --info-border: #7dd3fc;
+  --debt-bg: #ffedd5;
+  --debt-text: #9a3412;
+
+  /* Type ramp */
+  --fs-2xs: 13px;
+  --fs-xs: 14px;
+  --fs-sm: 15px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 22px;
+  --fs-2xl: 28px;
+  --fs-3xl: 34px;
+
+  /* Radius + elevation */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgba(11, 18, 32, 0.05), 0 4px 12px rgba(11, 18, 32, 0.06);
+  --shadow-md: 0 1px 2px rgba(11, 18, 32, 0.06), 0 10px 28px rgba(11, 18, 32, 0.09);
+  --shadow-lg: 0 18px 40px -12px rgba(11, 18, 32, 0.35);
+  --ring: 0 0 0 3px var(--brand-ring);
+
+  /* Type */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", monospace;
+
+  /* Layout */
+  --container: 1200px;
+  --header-height: 72px;
+  --sidebar-width: 280px;
+  --gutter: 24px;
+}
